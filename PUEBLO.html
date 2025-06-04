@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubre Mi Pueblo</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: url('https://partidero.com/wp-content/uploads/2022/11/maxresdefault.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+             .banner {
+            background-image: url('imagenes/13.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px #000;
+        }
+
+        header {
+            background-color: rgba(65, 65, 65, 0.8);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.9);
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            background-color: rgba(255, 255, 255, 0.95);
+            margin: 30px auto;
+            padding: 30px;
+            max-width: 900px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            color: #006400;
+        }
+
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .galeria img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .galeria img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.85);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenidos a Mi Pueblo</h1>
+    <p>Descubre su historia, sabores, tradiciones y paisajes</p>
+</header>
+
+<nav>
+    <a href="#historia">Historia</a>
+    <a href="#gastronomia">Gastronomía</a>
+    <a href="#cultura">Cultura</a>
+    <a href="#fiestas">Fiestas</a>
+    <a href="#productos">Productos</a>
+</nav>
+
+<section id="historia">
+    <h2>Reseña Histórica</h2>
+    <p>Ayotitlán, en el estado de Jalisco, México, es un pueblo que se caracteriza por su historia, tradiciones y belleza natural, especialmente en la Sierra de Amula. Es un lugar tranquilo, con gente cálida y acogedora que mantiene vivas sus costumbres, especialmente durante las fiestas. La región presenta un paisaje montañoso con flora y fauna silvestre, siendo un destino ideal para el senderismo y la observación de la naturaleza, aunque no es un pueblo con mucha infraestructura sus costumbres y tradiciones son muy agradables al igual que su comunidad .</p>
+    <div class="galeria">
+        <img src="imagenes/01.jpg" alt="Edificio antiguo">
+        
+    </div>
+</section>
+
+<section id="gastronomia">
+    <h2>Gastronomía</h2>
+    <p>El sabor y el sason de la comida de ayotitlan es unico e inigualable con mucho sabor y un estilo unico y especial, entre todo eso resaltan pozole, enchiladas, quesos, pipian y muchos mas.</p>
+    <div class="galeria">
+        <img src="imagenes/02.jpg" alt="Quesos locales">
+        <img src="imagenes/03.jpg" alt="Alimentos tipicos">
+        <img src="imagenes/04.jpg" alt="CPlatillos tipicos">
+    </div>
+</section>
+
+<section id="cultura">
+    <h2>Cultura</h2>
+    <p>La cultura de ayotitlan es muy variada incluye musica como mariachi y banda tambien tiene danza y folclor junto de muchas otras tradiciones.</p>
+    <div class="galeria">
+        <img src="imagenes/05.jpg" alt="Baile tradicional">
+        <img src="imagenes/06.jpg" alt="Artesanía local">
+    </div>
+</section>
+
+<section id="fiestas">
+    <h2>Fiestas Patronales</h2>
+    <p>Celebramos con devoción y alegría nuestras fiestas patronales: misas, ferias, juegos, música entre ellos fiestas patronales a nuestro santo " San Bartolome Apostol" estas se llevan a cabo con recorridos misas y muchos juegos y fuegos artificiales y muchos eventos mas en comunidad.</p>
+    <div class="galeria">
+        <img src="imagenes/07.jpg" alt="Procesión religiosa">
+        <img src="imagenes/08.jpg" alt="Fuegos artificiales">
+    </div>
+</section>
+
+<section id="productos">
+    <h2>Productos Locales</h2>
+    <p>Nuestros productos incluyen productos artesanales, frutas, textiles, postres y productos agrícolas frescos, como frutas como ciruelas, pitallas, guamuchiles y muchas mas. Todo hecho y cosechado con sabor por nuestra gente.</p>
+    <div class="galeria">
+        <img src="imagenes/09.jpg" alt="Café local">
+        <img src="imagenes/10.jpg" alt="Frutas frescas">
+        <img src="imagenes/11.jpg" alt="Textiles artesanales">
+    </div>
+</section>
+
+<footer>
+    <p>Toda esta pagina es estructurada por: JUan Manuel Plascencia Alvarado</p>
+</footer>
+
+</body>
+</html>
